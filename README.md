@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 ### 3. 运行
 ```bash
-pip main.py
+python main.py
 ```
 
 

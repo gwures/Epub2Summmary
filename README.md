@@ -1,6 +1,7 @@
 # Epub2Summary
 
 一个功能强大的EPUB文件章节检测和AI总结工具，支持多种章节检测方法，帮助用户快速提取和总结EPUB书籍内容。
+本程序主要是Vibe coding的产物。
 
 ## 功能特点
 
@@ -40,15 +41,13 @@ cd epub2summary
 ```bash
 pip install -r requirements.txt
 ```
+### 3. 运行
+```bash
+pip main.py
+```
 
-依赖列表：
-- PyQt6：图形界面库
-- ebooklib：EPUB文件解析
-- beautifulsoup4：HTML解析
-- requests：API请求
-- lxml：XPath支持
 
-### 3. 配置API密钥
+### 4. 配置API密钥
 
 首次运行程序后，在"设置"菜单中配置OpenAI API相关参数：
 - API Base URL
@@ -184,18 +183,6 @@ output/
 
 本项目采用MIT许可证，详情请参考LICENSE文件。
 
-## 更新日志
-
-### v1.0.0
-- 初始版本发布
-- 支持三种章节检测方法
-- 实现AI总结生成功能
-- 提供图形化用户界面
-
-### v1.1.0
-- 新增总结合并功能
-- 优化章节检测逻辑
-- 改进用户界面
 
 ## 贡献
 
